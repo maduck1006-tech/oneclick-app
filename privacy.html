@@ -1,0 +1,31 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy · 원클릭</title><link rel="stylesheet" href="style.css"></head><body>
+<header><b>원클릭 (OneClick)</b><nav><a href="index.html">Home</a><a href="terms.html">Terms of Service</a></nav></header>
+<div class="wrap">
+<h1>Privacy Policy</h1>
+<p>Last updated: November 6, 2026</p>
+<p>원클릭 (OneClick) ("the app") is a personal macOS desktop app operated by an individual, 김영진 (contact: maduck1006@gmail.com). It uses <b>YouTube API Services</b> to upload videos to the operator's own YouTube channel.</p>
+<h2>1. YouTube API Services and Google</h2>
+<p>The app uses YouTube API Services. By using the app you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> (http://www.google.com/policies/privacy).</p>
+<h2>2. Information the app accesses</h2>
+<ul>
+<li>With your permission through Google OAuth 2.0, the app receives an access token and a refresh token for the scopes <code>youtube.upload</code> and <code>youtube.readonly</code>.</li>
+<li>It reads the connected channel's ID, title and avatar URL (to show which channel is connected) and the upload/processing status of videos it uploaded.</li>
+<li>It sends the video file, title, description, tags, category, privacy/schedule settings and thumbnail that you chose to YouTube.</li>
+</ul>
+<h2>3. How the information is used, stored and shared</h2>
+<ul>
+<li>Information is used only to upload your videos and show upload progress inside the app.</li>
+<li>The OAuth client file and the refresh token are stored only on your Mac, encrypted with the macOS Keychain (Electron safeStorage). An upload history (video ID, title, time) is stored as a local file in the app's output folder.</li>
+<li>The app has no server. It does not sell, share or transfer YouTube data or any personal information to third parties, and it does not use cookies, analytics or advertising.</li>
+</ul>
+<h2>4. Deleting data and revoking access</h2>
+<ul>
+<li>Press "Disconnect" in the app's settings to delete the stored refresh token immediately. Deleting the app's data folder (~/Library/Application Support/원클릭) removes all stored data.</li>
+<li>You can revoke the app's access at any time on the Google security settings page: <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>.</li>
+<li>Data obtained through YouTube API Services is not kept longer than needed; channel information is refreshed or deleted within 30 days, and all stored data is deleted when access is revoked.</li>
+</ul>
+<h2>5. Changes and contact</h2>
+<p>This policy may be updated; the date above will change. Questions: maduck1006@gmail.com.</p>
+</div>
+<footer>원클릭 (OneClick) · <a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></footer>
+</body></html>

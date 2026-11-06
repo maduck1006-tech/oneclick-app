@@ -1,0 +1,17 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>원클릭 (OneClick)</title><link rel="stylesheet" href="style.css"></head><body>
+<header><b>원클릭 (OneClick)</b><nav><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav></header>
+<div class="wrap">
+<h1>원클릭 — a personal macOS app for the "AI 수익설계자" YouTube channel</h1>
+<p>원클릭 (OneClick) is a desktop app for macOS built and used by one individual creator (김영진) to prepare Korean videos for the channel <a href="https://www.youtube.com/channel/UCFRF7BmBa_0-JF0816aEuGg">AI 수익설계자</a> and upload them to that same channel.</p>
+<h2>How it uses YouTube API Services</h2>
+<ul>
+<li>Signs in with the owner's Google account through Google OAuth 2.0 (desktop loopback flow with PKCE).</li>
+<li>Scopes: <code>youtube.upload</code> (upload videos, set thumbnails) and <code>youtube.readonly</code> (read the connected channel name and the processing status of uploaded videos).</li>
+<li>Endpoints: <code>videos.insert</code> (resumable upload), <code>thumbnails.set</code>, <code>videos.list</code>, <code>channels.list</code>.</li>
+<li>Before each upload the owner reviews the title, description, tags, privacy or schedule time and the altered/synthetic content disclosure.</li>
+</ul>
+<p>The app is not sold or distributed, has no other users and has no server. It uses YouTube API Services; by using it you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
+<p><a class="btn" href="privacy.html">Read the Privacy Policy</a></p>
+</div>
+<footer>원클릭 (OneClick) · Contact: maduck1006@gmail.com · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · Uses YouTube API Services</footer>
+</body></html>
